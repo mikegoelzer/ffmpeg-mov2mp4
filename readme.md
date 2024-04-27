@@ -17,6 +17,7 @@ Common options:
 - `-i` or `--input`: input video file
 - `-o` or `--output`: output video file (default is input with `mp4` extension)
 - `-s` and `-t`: clips out seconds from the beginning and/or end of the input video
+- `c`: bitrate compression; for fast scrolling screen grabs, may make text unreadable (default: none)
 
 For full list of options:
 
