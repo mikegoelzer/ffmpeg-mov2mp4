@@ -9,7 +9,7 @@ Typically compresses ~200 MB `.mov` videos down to <1 MB with text still easily 
 To run the script, use the following command:
 
 ```sh
-python3 ffmpeg-mov2mp4.py -i <input_file> -o <output_file> -c <compression_level>
+python3 ffmpeg-mov2mp4.py -i <input_file> -o <output_file> -s <seconds> -t <seconds>
 ```
 
 Common options:
